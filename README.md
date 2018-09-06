@@ -17,7 +17,7 @@
 
 
 ## 4. Modeling
-- test data 1
+- classification report - test data 1
 
 NB Multi|precision|recall|f1-score|support
 -----|--------|--------|-----|----
@@ -25,7 +25,7 @@ NB Multi|precision|recall|f1-score|support
 긍정|1.00|0.99|1.00|128
 avg/total|0.99|0.99|0.99|130
 
-- test data 2
+- classification report - test data 2
 
 NB Multi|precision|recall|f1-score|support
 -----|--------|--------|-----|----
