@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Is it Good?</title>
+    <!-- <link rel="shortcut icon" href="../Add-item-icon.png"  /> -->
+
+    <!-- bootstrap - css -->
+    <link rel ="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <!-- <link rel ="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="static/css/index.css">
+  </head>
+  <body>
+
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">키워드가 포함된 상품평 리스트</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body contents-body-neg">
+
+          </div>
+          <div class="modal-body contents-body-pos">
+
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+  <!-- Content here -->
+      <!-- 입력창 -->
+      <div class="input row">
+        <input class="form-control col-md-10 link" type="text" placeholder="쿠팡상품 링크 붙여넣기">
+        <button type="button" class="btn btn-success col-md-2 prediction">분석하기</button>
+      </div>
+
+      <!-- 결과 데이터 -->
+      <div class="result row">
+        <div class="col-12 alert alert-info" role="alert"></div>
+      </div>
+
+      <!-- 차트 데이터 -->
+      <!-- div.chart>div#container -->
+      <div class="chart row">
+        <div id="container"></div>
+      </div>
+
+      <div class="table_container">
+        <div id="table_negative"></div>
+        <div id="table_positive"></div>
+        </div>
+      </div>
+    </div>
+    <!-- jquery -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/6.1.1/highcharts.js"></script>
+    <script type="text/javascript" src="static/js/index.js"></script>
+  </body>
+</html>
+
+<!-- cdnjs bootstrap -->
+
+<!-- 데이터프레임 반환, 스타일개선 -->

@@ -1,0 +1,23 @@
+body{
+  padding-top: 50px;
+}
+
+#container{
+  margin: 0 auto;
+}
+
+.contents-body-neg{
+  overflow-y: scroll!important;
+  max-height: 500px!important;
+}
+
+.contents-body-pos{
+  overflow-y: scroll!important;
+  max-height: 500px!important;
+}
+
+/* .table-data:hover{
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+} */
